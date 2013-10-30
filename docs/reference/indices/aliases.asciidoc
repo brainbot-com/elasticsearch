@@ -196,7 +196,7 @@ curl -XPUT 'localhost:9200/users/_alias/user_12' -d '{
 Th API to delete a single index alias, has options: 
 
 [horizontal]
-`index`:: The index the alias is in, the needs to be deleted. This is
+`index`:: The index the alias is in, that needs to be deleted. This is
           a required option. 
 `alias`:: The name of the alias to delete. This is a required option.
 
