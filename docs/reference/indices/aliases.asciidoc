@@ -158,7 +158,7 @@ curl -XGET 'http://localhost:9200/alias2/_search?q=user:kimchy&routing=2,3'
 There is also an api to add a single index alias, with options: 
 
 [horizontal]
-`index`::   The index to alias refers to. This is a required option. 
+`index`::   The index the alias refers to. This is a required option.
 `alias`::   The name of the alias. This is a required option. 
 `routing`:: An optional routing that can be associated with an alias. 
 `filter`::  An optional filter that can be associated with an alias.
