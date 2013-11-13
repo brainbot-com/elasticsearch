@@ -221,7 +221,7 @@ are:
 
 Note, when querying or using a field name in any of the APIs provided
 (search, query, selective loading, ...), there is an automatic detection
-from logical full path and into the `index_name` and vice versa. For
+from logical full path into the `index_name` and vice versa. For
 example, even though `name1`/`last1` defines that it is stored with
 `just_name` and a different `index_name`, it can either be referred to
 using `name1.last1` (logical name), or its actual indexed name of
