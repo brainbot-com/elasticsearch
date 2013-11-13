@@ -174,7 +174,7 @@ In the above, `name` and its content will not be indexed at all.
 In the <<mapping-core-types,core_types>>
 section, a field can have a `index_name` associated with it in order to
 control the name of the field that will be stored within the index. When
-that field exists within an object(s) that are not the root object, the
+that field exists within (an) object(s) that are not the root object, the
 name of the field of the index can either include the full "path" to the
 field with its `index_name`, or just the `index_name`. For example
 (under mapping of _type_ `person`, removed the tweet type for clarity):
