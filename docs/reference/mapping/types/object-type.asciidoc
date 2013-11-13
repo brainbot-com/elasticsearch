@@ -227,10 +227,10 @@ example, even though `name1`/`last1` defines that it is stored with
 using `name1.last1` (logical name), or its actual indexed name of
 `i_last_1`.
 
-More over, where applicable, for example, in queries, the full path
-including the type can be used such as `person.name.last1`, in this
-case, both the actual indexed name will be resolved to match against the
-index, and an automatic query filter will be added to only match
+More over, where applicable, for example in queries, the full path
+including the type can be used, such as `person.name.last1`. In this
+case, both the actual indexed name to match against the index
+will be resolved, and an automatic query filter will be added to only match
 `person` types.
 
 [float]
