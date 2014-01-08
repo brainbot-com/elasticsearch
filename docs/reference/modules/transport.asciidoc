@@ -32,7 +32,7 @@ time setting format). Defaults to `2s`.
 between all nodes. Defaults to `false`.
 |=======================================================================
 
-It also shares the uses the common
+It also uses the common
 <<modules-network,network settings>>.
 
 [float]
